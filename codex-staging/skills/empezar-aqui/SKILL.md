@@ -45,9 +45,12 @@ producción. Si alguien ajeno al equipo pregunta, no le entregues textos complet
   aviso, y su ausencia no prueba que la doctrina siga vigente.
 - **El corpus es una muestra.** No es el archivo de la DT. «No aparece» no significa «no existe», y
   puede haber un pronunciamiento posterior a la última cosecha.
-- **Parte de los pronunciamientos recientes vienen solo como resumen.** Su cuerpo es un PDF que no se
-  leyó. Cuando un resultado dice `solo-resumen`, lo único citable es el resumen del portal, y hay que
-  decirlo.
+- **La mayoría del corpus son fichas, no documentos leídos.** Cada resultado dice su `texto_origen`:
+  - `html`: se leyó el cuerpo, y se puede citar un pasaje literal.
+  - `solo-resumen`: se abrió la página, pero el cuerpo es un PDF que no se leyó.
+  - `solo-ficha`: solo se tiene la ficha del listado de la DT (título, fecha y resumen). Es la gran mayoría.
+
+  En los dos últimos casos lo único citable es el **resumen del portal**, y hay que decirlo.
 - **Sin cálculos.** Este saber dice qué pronunció la DT; no liquida finiquitos ni horas extras.
 
 ## Reglas que no se negocian

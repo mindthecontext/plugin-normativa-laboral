@@ -64,6 +64,11 @@ Abre los que importan con `ver_documento`. Y mira `texto_origen`:
 - **`solo-resumen`**: el cuerpo es un PDF que no se leyó. Lo único que tienes es el **resumen del
   portal**. Cítalo como tal —«según el resumen del portal de la DT»—, **nunca como si fuera el texto
   del pronunciamiento**, y no afirmes nada que el resumen no diga.
+- **`solo-ficha`**: es la mayoría del corpus. La página del documento no se abrió: tienes su título, su
+  fecha y su resumen (idéntico al de la página), pero **no** sus descriptores, sus fuentes legales, sus
+  concordancias ni su cuerpo. Se cita igual que un `solo-resumen`, y además no sabes qué normas aplica:
+  no lo afirmes. Vale mucho para ver una **línea de doctrina** —varios pronunciamientos de distintos años
+  que dicen lo mismo—, y poco para el detalle de un caso.
 
 ## 3 · La vigencia: aquí se gana o se pierde la respuesta
 
