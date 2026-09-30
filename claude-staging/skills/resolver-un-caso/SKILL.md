@@ -90,11 +90,20 @@ La DT no declara qué sigue vigente. Un dictamen puede haber sido **reconsiderad
 pertinente» el dictamen 235/8 (2024) sobre cómo distribuir la rebaja de jornada. Quien cite la fórmula
 del 235/8 como vigente se equivoca.
 
-## 4 · El texto de la ley no está aquí
+## 4 · La ley: solo el Código del Trabajo, y solo su versión vigente
 
-El corpus tiene lo que pronunció la DT, no los artículos que aplica. Si la respuesta depende de lo que
-dice la ley (plazos, montos, gradualidad de una reforma), **no lo completes con conocimiento
-general**: di qué pronunció la DT sobre esa norma y remite a la fuente oficial para el texto.
+Cuando la respuesta dependa de lo que dice un artículo del **Código del Trabajo**, léelo con `ver_articulo`
+(«22», «161», «211-B bis», «152 quáter O bis»; indica `transitorio` si lo es). Trae el texto vigente según
+la BCN, si está derogado, las reformas que anota al margen y los dictámenes del corpus que lo citan: ése
+es un buen camino para llegar a la doctrina sobre un artículo concreto.
+
+Dos límites que se dicen:
+
+- **Es la versión vigente**, con su `fecha_version`. Si la pregunta es por un hecho pasado y el artículo
+  cambió después, el texto de entonces no está aquí.
+- **Las demás leyes no están**: los transitorios de la Ley 21.561 y el art. 24 de la Ley 21.755, la Ley
+  16.744, la 19.728 y otras. Si la respuesta depende de ellas, **no las completes con conocimiento
+  general**: di qué pronunció la DT sobre esa norma y remite a Ley Chile para el texto.
 
 ## 5 · Repetición no es corroboración
 
