@@ -32,6 +32,23 @@ Haz **dos búsquedas** y compáralas:
 **Si la consulta trae dos dudas** —un plazo y un procedimiento, el fondo y la prueba— resuélvelas por
 separado. Contestar una y callar la otra deja media consulta sin responder.
 
+**El vocabulario importa más de lo que parece.** En las pruebas, la pasada con lenguaje corriente («mi jefe no
+me deja trabajar desde la casa») trajo embarazo y sala cuna, y los pronunciamientos que respondían solo
+aparecieron al escribir el nombre de la ley («Ley 21.645»), el descriptor («conciliación de trabajo y
+familia») y los términos de la norma. Si la primera pasada no trae lo que esperas, **repite con el
+vocabulario legal**, no con más palabras corrientes. Una consulta larga y desordenada puntúa peor que una
+corta y precisa.
+
+**Lee lo que el servicio te dice sobre la calidad de la búsqueda:**
+
+- `busqueda_pobre: true` —o la advertencia «BÚSQUEDA POBRE»— significa que **ni el mejor resultado coincide
+  bien**. No presentes esos resultados como respuesta: reformula, y si sigue igual, di que el corpus
+  probablemente no trata el punto.
+- `coincidencia_debil: true` en un resultado significa que puntúa muy por debajo del mejor. No lo cites sin
+  abrirlo y comprobar que trata tu punto.
+- `resumen_recortado: true` significa que el resumen de la búsqueda está cortado: ábrelo con `ver_documento`
+  antes de citar lo que dice.
+
 **Si no aparece nada**, eso no es una respuesta: el corpus es una muestra. Reformula con otros términos
 (la norma, el nombre de la ley, el descriptor habitual) antes de concluir que no hay respaldo.
 
