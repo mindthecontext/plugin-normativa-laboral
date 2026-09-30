@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "normativa-laboral": {
+      "type": "http",
+      "url": "https://normativa-laboral.mcp.mindthecontext.ai/mcp"
+    }
+  }
+}

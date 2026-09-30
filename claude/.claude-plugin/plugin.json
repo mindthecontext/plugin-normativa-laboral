@@ -1,0 +1,12 @@
+{
+  "name": "normativa-laboral",
+  "version": "0.1.0",
+  "description": "Cómo la Dirección del Trabajo ha resuelto casos laborales en Chile: dictámenes y ordinarios con su cita, su vigencia y sus límites declarados.",
+  "author": {
+    "name": "MindTheContext"
+  },
+  "repository": "https://github.com/mindthecontext/saber-normativa-laboral",
+  "keywords": [],
+  "homepage": "https://github.com/mindthecontext/saber-normativa-laboral",
+  "mcpServers": "./.mcp.json"
+}

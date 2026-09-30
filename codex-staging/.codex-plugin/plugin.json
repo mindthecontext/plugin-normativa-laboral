@@ -1,0 +1,17 @@
+{
+  "name": "normativa-laboral-staging",
+  "version": "0.1.0",
+  "description": "Cómo la Dirección del Trabajo ha resuelto casos laborales en Chile: dictámenes y ordinarios con su cita, su vigencia y sus límites declarados.",
+  "author": {
+    "name": "MindTheContext"
+  },
+  "repository": "https://github.com/mindthecontext/saber-normativa-laboral",
+  "keywords": [],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Normativa Laboral",
+    "shortDescription": "Cómo la Dirección del Trabajo ha resuelto casos laborales en Chile: dictámenes y ordinarios con su cita, su vigencia y sus límites declarados.",
+    "longDescription": "Cómo la Dirección del Trabajo ha resuelto casos laborales en Chile: dictámenes y ordinarios con su cita, su vigencia y sus límites declarados."
+  },
+  "mcpServers": "./.mcp.json"
+}
