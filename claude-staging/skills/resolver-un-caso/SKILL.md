@@ -48,7 +48,7 @@ corta y precisa.
 - `resumen_recortado: true` significa que el resumen de la búsqueda está cortado: ábrelo con `ver_documento`
   antes de citar lo que dice.
 
-**Si no aparece nada**, eso no es una respuesta: el corpus es una muestra. Reformula con otros términos
+**Si no aparece nada**, eso no es una respuesta: el corpus no es el archivo completo de la DT. Reformula con otros términos
 (la norma, el nombre de la ley, el descriptor habitual) antes de concluir que no hay respaldo.
 
 ## 2 · No confíes en el orden: comprueba que RESUELVE
@@ -63,7 +63,7 @@ Abre los que importan con `ver_documento`. Y mira `texto_origen`:
 - **`solo-resumen`**: el cuerpo es un PDF que no se leyó. Lo único que tienes es el **resumen del
   portal**. Cítalo como tal —«según el resumen del portal de la DT»—, **nunca como si fuera el texto
   del pronunciamiento**, y no afirmes nada que el resumen no diga.
-- **`solo-ficha`**: es la mayoría del corpus. La página del documento no se abrió: tienes su título, su
+- **`solo-ficha`**: quedan muy pocos. La página del documento no se abrió: tienes su título, su
   fecha y su resumen (idéntico al de la página), pero **no** sus descriptores, sus fuentes legales, sus
   concordancias ni su cuerpo. Se cita igual que un `solo-resumen`, y además no sabes qué normas aplica:
   no lo afirmes. Vale mucho para ver una **línea de doctrina** —varios pronunciamientos de distintos años
@@ -78,9 +78,10 @@ La DT no declara qué sigue vigente. Un dictamen puede haber sido **reconsiderad
   reconsiderarlo, con la frase literal. **Si hay alguna, abre ese pronunciamiento primero**: manda el
   posterior, y hay que decir que el anterior fue reconsiderado.
 - `vigencia.reconsidera` dice a quién reconsidera el que estás leyendo.
-- **Que no haya señal no prueba que siga vigente.** La regla es estricta y sin revisar, y solo cruza
-  destinos que están en el corpus (la mayoría de las reconsideraciones apuntan a documentos que no
-  cosechamos). Dilo: «no encontré señal de que haya sido reconsiderado en el corpus».
+- **Que no haya señal no prueba que siga vigente.** La regla es estricta y sin revisar: lee el resumen, el
+  encabezado de la DT («RDIC.: Reconsidérase…») y la conclusión, no el resto del cuerpo, y solo cruza
+  destinos que están en el corpus y que se identifican sin ambigüedad (número, consecutivo y año, o la
+  fecha completa). Dilo: «no encontré señal de que haya sido reconsiderado en el corpus».
 - Si dos pronunciamientos dicen cosas distintas y **ninguno declara reconsiderar al otro**, no decidas
   tú cuál rige. Preséntalos los dos, con sus fechas, y di que la tensión no está resuelta.
 - Si la pregunta es por un hecho **pasado**, el criterio de su época puede ser el correcto aunque hoy
@@ -138,7 +139,7 @@ Una respuesta terminada tiene cinco partes:
 4. **Su vigencia**: si hay señal de reconsideración, cuál; si no la hay, que no se encontró y que eso
    no prueba que rija.
 5. **Qué queda fuera**: lo que el pronunciamiento no aborda, la ley que no está en el corpus, lo
-   posterior a la última cosecha, y que es una muestra.
+   posterior a la última cosecha, y que el corpus no es el archivo completo de la DT.
 
 ## Cuándo abstenerse
 

@@ -44,12 +44,15 @@ producción. Si alguien ajeno al equipo pregunta, no le entregues textos complet
   haber sido reconsiderado por otro posterior, y **eso no figura en el documento superado**. Este
   saber marca *señales* de reconsideración con una regla estricta, sin revisar: una señal es un
   aviso, y su ausencia no prueba que la doctrina siga vigente.
-- **El corpus es una muestra.** No es el archivo de la DT. «No aparece» no significa «no existe», y
-  puede haber un pronunciamiento posterior a la última cosecha.
-- **La mayoría del corpus son fichas, no documentos leídos.** Cada resultado dice su `texto_origen`:
-  - `html`: se leyó el cuerpo, y se puede citar un pasaje literal.
-  - `solo-resumen`: se abrió la página, pero el cuerpo es un PDF que no se leyó.
-  - `solo-ficha`: solo se tiene la ficha del listado de la DT (título, fecha y resumen). Es la gran mayoría.
+- **El corpus no es el archivo completo de la DT.** Es el catálogo de dictámenes y ordinarios que exponen
+  sus listados por año (1997-2026), y nadie verificó que esos listados traigan todo lo publicado. Faltan
+  las circulares y órdenes de servicio. «No aparece» no significa «no existe», y puede haber un
+  pronunciamiento posterior a la última cosecha.
+- **No todo se leyó entero.** Cada resultado dice su `texto_origen`:
+  - `html`: se leyó el cuerpo, y se puede citar un pasaje literal. Son unos tres de cada cuatro.
+  - `solo-resumen`: se abrió la página, pero el cuerpo es un PDF que no se leyó. Casi uno de cada cuatro,
+    y muchos son de los últimos años.
+  - `solo-ficha`: solo se tiene la ficha del listado de la DT (título, fecha y resumen). Quedan muy pocos.
 
   En los dos últimos casos lo único citable es el **resumen del portal**, y hay que decirlo.
 - **Sin cálculos.** Este saber dice qué pronunció la DT; no liquida finiquitos ni horas extras.
