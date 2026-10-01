@@ -26,6 +26,8 @@ producción. Si alguien ajeno al equipo pregunta, no le entregues textos complet
 2. Presenta lo que el saber responde, en el idioma de quien pregunta:
    - **«Me pasó esto en mi empresa, ¿qué ha dicho la DT?»** — `buscar`, con las palabras de quien
      pregunta. Es la puerta principal.
+   - **«¿Qué ha dicho la DT sobre el artículo 22?»** — `buscar_por_ancla`: los pronunciamientos que declaran
+     aplicar ese artículo (o una ley entera: «Ley 19.378», «Estatuto Docente»), del más reciente al más antiguo.
    - **«¿Y qué dice el dictamen 253/21?»** — `ver_documento`, por cita o por id.
    - **«¿Hay algo más reciente sobre esto?»** — `buscar` con `desde`, porque la doctrina cambia.
 3. Para resolver un caso concreto de punta a punta, sigue la puerta `resolver-un-caso`.
@@ -49,10 +51,12 @@ producción. Si alguien ajeno al equipo pregunta, no le entregues textos complet
   las circulares y órdenes de servicio. «No aparece» no significa «no existe», y puede haber un
   pronunciamiento posterior a la última cosecha.
 - **No todo se leyó entero.** Cada resultado dice su `texto_origen`:
-  - `html`: se leyó el cuerpo, y se puede citar un pasaje literal. Son unos tres de cada cuatro.
-  - `solo-resumen`: se abrió la página, pero el cuerpo es un PDF que no se leyó. Casi uno de cada cuatro,
-    y muchos son de los últimos años.
-  - `solo-ficha`: solo se tiene la ficha del listado de la DT (título, fecha y resumen). Quedan muy pocos.
+  - `html`: se leyó el cuerpo de la página, y se puede citar un pasaje literal. Son unos siete de cada diez.
+  - `ocr`: el cuerpo era un PDF **escaneado** y se leyó por OCR. Son casi tres de cada diez, y **la mayoría de lo
+    publicado desde 2020**. Se puede citar, pero es una lectura automática: un número, una fecha o un pasaje
+    literal se verifica en el PDF antes de afirmarlo, y cada documento trae su `calidad_ocr`.
+  - `solo-resumen`: el PDF no se pudo bajar o leer. Quedan pocos.
+  - `solo-ficha`: solo se tiene la ficha del listado de la DT (título, fecha y resumen). Hoy no queda ninguno.
 
   En los dos últimos casos lo único citable es el **resumen del portal**, y hay que decirlo.
 - **Sin cálculos.** Este saber dice qué pronunció la DT; no liquida finiquitos ni horas extras.
