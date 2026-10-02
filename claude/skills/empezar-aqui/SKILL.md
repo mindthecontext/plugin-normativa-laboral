@@ -38,10 +38,11 @@ producción. Si alguien ajeno al equipo pregunta, no le entregues textos complet
   profesional decida. No reemplaza a un abogado laboralista.
 - **Un pronunciamiento de la DT no es la ley ni un fallo.** Es la interpretación administrativa del
   Servicio. **Aquí no hay sentencias de tribunales**, y hay materias que solo resuelven ellos.
-- **De la ley, está el Código del Trabajo y algunas leyes laborales** (21.561, 21.755, 21.645 y 21.643
-  «Ley Karin»; la lista exacta la da `listar_cobertura`). `ver_articulo` entrega cada artículo en la versión vigente que publica
-  la BCN, con los dictámenes que lo citan. **No está su historia** (el texto que regía antes) **ni las
-  demás leyes** (16.744, 19.728 y otras): si la respuesta depende de ellas, dilo y remite a Ley Chile.
+- **De la ley, están el Código del Trabajo, el Código Civil, la Constitución y las leyes que los dictámenes más
+  aplican** (16.744, 18.883, 19.296, 19.378, 19.464, 19.880, 21.109 y las reformas recientes; la lista exacta la da
+  `listar_cobertura`). `ver_articulo` entrega cada artículo en la versión vigente que publica la BCN, con los
+  dictámenes que lo citan. **No está su historia** (el texto que regía antes) **ni las demás normas** —entre ellas
+  el Estatuto Docente, la 19.728 y la 20.123—: si la respuesta depende de ellas, dilo y remite a Ley Chile.
 - **La vigencia no está declarada.** La DT no la publica de forma estructurada. Un dictamen puede
   haber sido reconsiderado por otro posterior, y **eso no figura en el documento superado**. Este
   saber marca *señales* de reconsideración con una regla estricta, sin revisar: una señal es un

@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.10.1 · 2026-10-02
+
+`ver_articulo` trae el texto del Código Civil, la Constitución y las leyes que los dictámenes más aplican: 16.744, 18.883, 19.296, 19.378, 19.464, 19.880 y 21.109 (de 793 a 4.139 artículos). Entre el 96 y el 100 % de las citas de los dictámenes a esas normas llega a un artículo vigente. El Estatuto Docente no se incluyó: los dictámenes citan su texto refundido y la BCN entregó la ley original, con otra numeración.
+
+- Herramientas: `buscar`, `buscar_por_ancla`, `listar_cobertura`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.10.0 · 2026-10-02
 
 Cada pronunciamiento dice si la DT declina pronunciarse (`declina_competencia`: total o parcial, por qué y a qué organismo remite, con la frase), y `buscar` trae una señal de `frontera` cuando varias declinaciones encabezan los resultados. Medido: la señal no se disparó en ninguna de las 6 preguntas de frontera de la evaluación (se predijo 3) y no dio falsos positivos; que no aparezca no prueba que la DT resuelva el punto.

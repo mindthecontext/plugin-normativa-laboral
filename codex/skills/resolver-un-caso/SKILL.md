@@ -112,24 +112,28 @@ La DT no declara qué sigue vigente. Un dictamen puede haber sido **reconsiderad
 pertinente» el dictamen 235/8 (2024) sobre cómo distribuir la rebaja de jornada. Quien cite la fórmula
 del 235/8 como vigente se equivoca.
 
-## 5 · La ley: el Código del Trabajo y algunas leyes, en su versión vigente
+## 5 · La ley: los códigos y las leyes que más aplican los dictámenes, en su versión vigente
 
 Cuando la respuesta dependa de lo que dice la ley, léela con `ver_articulo`. Trae el **Código del Trabajo**
-(«22», «161», «211-B bis», «152 quáter O bis») y las leyes laborales que lista `listar_cobertura` —hoy la
-**21.561** (40 horas), la **21.755** (su art. 24 fija la fórmula de la rebaja), la **21.645**
-(conciliación) y la **21.643** («Ley Karin»)—: pasa `norma` («Ley 21.561») y `transitorio` si lo es. Los transitorios de las leyes se
+(«22», «161», «211-B bis», «152 quáter O bis»), el **Código Civil** («1545», «1792-1»), la **Constitución** («19») y
+las leyes que lista `listar_cobertura`: entre ellas la **16.744** (accidentes del trabajo), la **19.378** (atención
+primaria de salud municipal), la **18.883** (funcionarios municipales), la **19.296** (asociaciones de funcionarios), la
+**21.109** (asistentes de la educación), la **19.880** (procedimiento administrativo) y las reformas recientes: **21.561**
+(40 horas), **21.755** (su art. 24 fija la fórmula de la rebaja), **21.645** (conciliación) y **21.643** («Ley Karin»).
+Pasa `norma` («Ley 19.378», «Código Civil», «Constitución») y `transitorio` si lo es. Los transitorios de las leyes se
 nombran en palabras («tercero»), pero se pueden pedir en cifras («3»).
 
 Cada artículo viene con cuántos dictámenes del corpus lo citan; para recorrerlos, con su vigencia y por páginas,
-usa `buscar_por_ancla`. `buscar_por_ancla` también llega a leyes cuyo texto NO está aquí (la 19.378, el Estatuto
-Docente, la 16.744): trae lo que la DT pronunció al aplicarlas, aunque no puedas leer el artículo. Y cuando dos dictámenes aplican la misma norma de forma distinta, leer
+usa `buscar_por_ancla`. `buscar_por_ancla` también llega a normas cuyo texto NO está aquí (el Estatuto Docente, el
+DFL 2 de 1967, el DL 3.166): trae lo que la DT pronunció al aplicarlas, aunque no puedas leer el artículo. Y cuando dos dictámenes aplican la misma norma de forma distinta, leer
 el artículo ayuda a exponer la tensión, **pero no la resuelve tú**: preséntala.
 
 Dos límites que se dicen:
 
 - **Es la versión vigente**, con su `fecha_version`. Si la pregunta es por un hecho pasado y el artículo
   cambió después, el texto de entonces no está aquí.
-- **Las demás leyes no están**: la Ley 16.744, la 19.728, los estatutos docente y de salud, y otras.
+- **Las demás normas no están**: el Estatuto Docente (su texto refundido, el DFL 1 de 1996), el DFL 2 de 1967, la
+  19.728, la 20.123 y otras.
   `ver_articulo` responde con la lista de las que sí hay. Si la respuesta depende de ellas, **no las completes con conocimiento
   general**: di qué pronunció la DT sobre esa norma y remite a Ley Chile para el texto.
 
