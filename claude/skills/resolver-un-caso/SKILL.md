@@ -18,8 +18,11 @@ casos así, bajo qué condición, si sigue en pie, y qué queda fuera.
 ## 1 · Si la pregunta ya nombra el artículo, entra por él
 
 «¿Qué ha dicho la DT sobre el artículo 22?», «¿cómo aplica la DT el 152 quáter O bis?»: usa **`buscar_por_ancla`**
-con la norma y el artículo. Trae los pronunciamientos que **declaran aplicarlo** en sus fuentes legales, del más
-reciente al más antiguo, y no depende de cómo esté escrita la pregunta. Lee sus advertencias: dice si el artículo **ya
+con la norma, el artículo y **la pregunta en `consulta`**. Trae los pronunciamientos que **declaran aplicarlo** en sus
+fuentes legales, ordenados por pertinencia a la pregunta, y suma los que lo **mencionan en el cuerpo** sin declararlo,
+marcados en `vinculo`: esos ábrelos antes de presentarlos como doctrina sobre el artículo. Sin `consulta` el orden es
+por fecha, y la doctrina que fija un criterio suele ser antigua: en la primera medición, ordenar por fecha dejó el
+dictamen que respondía en el último lugar. Lee sus advertencias: dice si el artículo **ya
 no existe** en la versión vigente (lo citan dictámenes antiguos de artículos derogados) y cuántos pronunciamientos son
 **anteriores a la versión vigente** del artículo, que pueden haber aplicado otro texto.
 
