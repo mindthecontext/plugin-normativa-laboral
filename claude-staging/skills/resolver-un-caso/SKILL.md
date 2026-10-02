@@ -140,6 +140,18 @@ menciona que se reitera si importa.
 
 ## 7 · Cuando el pronunciamiento no resuelve, dilo
 
+**Mira `declina_competencia` en cada resultado.** Marca los pronunciamientos en que la DT dice que no le corresponde
+pronunciarse: `total` o `parcial`, el `motivo` (`materia_judicial`, `otro_organismo`, `consulta_generica`, `otro`) y a
+qué organismo remite, con la frase. Una declinación no es criterio de fondo: si es lo que encontraste, la respuesta es
+«la DT declina, y remite a…», con la cita. Si `buscar` trae `frontera.senal: true`, varios de los primeros resultados
+son declinaciones: es probable que la pregunta la resuelva otro organismo, y la evidencia está en `frontera.evidencia`.
+
+**Que no haya señal NO prueba que la DT resuelva el punto.** Medido sobre 6 preguntas de frontera escritas por
+terceros, la señal no se disparó en ninguna: las declinaciones existían, pero quedaban lejos de los primeros
+resultados. Si la pregunta es sobre licencias médicas, calificación de enfermedades profesionales, pensiones o
+cotizaciones, funcionarios públicos o municipales, impuestos, o algo que ya está en un juicio, pregúntate si es materia
+de la DT antes de responder con sus dictámenes.
+
 Parte del corpus son pronunciamientos que **declinan competencia**, responden **por remisión** o se
 limitan a un caso particular con hechos que no son los de quien pregunta. Son legítimos y no contienen
 criterio general. Descríbelos como lo que son. **No completes el vacío con conocimiento general de
