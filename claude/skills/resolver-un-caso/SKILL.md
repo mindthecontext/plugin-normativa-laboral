@@ -92,7 +92,16 @@ Abre los que importan con `ver_documento`. Y mira `texto_origen`:
 ## 4 · La vigencia: aquí se gana o se pierde la respuesta
 
 La DT no declara qué sigue vigente. Un dictamen puede haber sido **reconsiderado** por otro posterior y
-**el superado no lo dice**. Este saber te da señales, no veredictos:
+**el superado no lo dice**. Este saber te da señales, no veredictos. **Empieza por `vigencia.ultima_senal`**: lo
+último que la DT dijo de ese documento en el corpus, de tres tipos:
+
+- **`supera`**: un pronunciamiento posterior lo reconsideró o lo dejó sin efecto. Manda el posterior.
+- **`confirma`**: un pronunciamiento posterior **negó reconsiderarlo** o lo **declaró vigente**. Es la mejor
+  evidencia de que el criterio seguía en pie: cítala con su fecha («confirmado por el ORD 2591/22, de 2020, que negó
+  reconsiderarlo»). Dice que la DT lo sostuvo EN ESA FECHA, no después.
+- **`precisa`**: uno posterior lo complementó o aclaró. Lee los dos: el criterio es la suma.
+
+Las listas completas están en `confirmaciones`, `precisiones` y `senales_de_superacion`.
 
 - En cada resultado, `vigencia.senales_de_superacion` lista los pronunciamientos del corpus que dicen
   reconsiderarlo, con la frase literal. **Si hay alguna, abre ese pronunciamiento primero**: manda el

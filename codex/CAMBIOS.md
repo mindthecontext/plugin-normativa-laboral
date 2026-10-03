@@ -4,6 +4,24 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.12.1 · 2026-10-03
+
+Es la vigencia tipada de la 0.12.0, publicada de verdad: la etiqueta v0.12.0 se puso por error sobre el commit anterior y no llegó a quien usa el saber.
+
+- Herramientas: `buscar`, `buscar_por_ancla`, `listar_cobertura`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.12.0 · 2026-10-03  ·  ⚠ QUEMADA
+
+> **Esta versión no debe servirse.** Etiquetada por error sobre el commit de la v0.10.1 (un git pull falló y la etiqueta se puso igual). El pipeline desplegó en staging el código de la 0.10.1 —el mismo que ya corría— y falló al publicar el paquete, así que no llegó a nadie. Su contenido está en la 0.12.1.
+
+La vigencia dice ahora también qué criterios la DT CONFIRMÓ después (negó reconsiderarlos o los declaró vigentes: 218 enlaces) y cuáles PRECISÓ (complementó o aclaró: 32), además de los que superó (106). Cada documento trae su `ultima_senal`, lo último que la DT dijo de él en el corpus. Precisión medida por muestra: confirma 38 de 40, precisa 19 de 20.
+
+- Herramientas: `buscar`, `buscar_por_ancla`, `listar_cobertura`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.10.1 · 2026-10-02
 
 `ver_articulo` trae el texto del Código Civil, la Constitución y las leyes que los dictámenes más aplican: 16.744, 18.883, 19.296, 19.378, 19.464, 19.880 y 21.109 (de 793 a 4.139 artículos). Entre el 96 y el 100 % de las citas de los dictámenes a esas normas llega a un artículo vigente. El Estatuto Docente no se incluyó: los dictámenes citan su texto refundido y la BCN entregó la ley original, con otra numeración.
