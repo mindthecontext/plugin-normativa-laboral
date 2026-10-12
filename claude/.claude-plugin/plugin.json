@@ -1,12 +1,21 @@
 {
   "name": "normativa-laboral",
-  "version": "0.12.1",
-  "description": "Cómo la Dirección del Trabajo ha resuelto casos laborales en Chile: dictámenes y ordinarios con su cita, su vigencia y sus límites declarados.",
+  "version": "0.13.1",
+  "description": "El criterio de la Dirección del Trabajo, con su vigencia, para quien emplea en Chile: cómo cumplir en jornada, remuneraciones, permisos, teletrabajo o Ley Karin según lo que la DT pronunció, con cita, fecha y las señales de si un pronunciamiento posterior lo confirmó, lo precisó o lo reconsideró.",
   "author": {
     "name": "MindTheContext"
   },
   "repository": "https://github.com/mindthecontext/saber-normativa-laboral",
-  "keywords": [],
+  "keywords": [
+    "dirección del trabajo",
+    "dictámenes",
+    "recursos humanos",
+    "cumplimiento laboral",
+    "empleadores",
+    "jornada",
+    "remuneraciones",
+    "ley karin"
+  ],
   "homepage": "https://github.com/mindthecontext/saber-normativa-laboral",
   "mcpServers": "./.mcp.json"
 }

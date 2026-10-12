@@ -4,6 +4,22 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.13.1 · 2026-10-10
+
+La skill `resolver-un-caso` nombra, antes de buscar, la institución del caso y su artículo, con un mapa verificado de las instituciones del Código del Trabajo que más se consultan. Cuando no hay un pronunciamiento del caso exacto, busca el criterio general de la institución y lo dice como tal. Y ordena lo que entrega por lo que decide: primero el que resuelve el supuesto exacto y sigue vigente, nunca primero uno solo relacionado o una declinación. Lo litigioso se responde en dos mitades: lo que la DT dijo sobre las formalidades, y que el fondo lo decide un tribunal. Medido en dos conjuntos ciegos nuevos, con GPT como agente y un juez independiente: con preguntas nuevas, el primer resultado responde en torno al 60 % de las veces. La diferencia con la skill anterior queda dentro del ruido de una corrida a otra (dos corridas idénticas difieren en 7 puntos), así que la mejora no está demostrada: se adopta por su contenido. Las herramientas y los datos no cambian. Y trae lo de la 0.13.0, que no llegó a quien usa el saber: la etiqueta v0.13.0 se publicó con el servidor anunciando todavía la versión 0.12.1, y la verificación de staging la rechazó.
+
+- Herramientas: `buscar`, `buscar_por_ancla`, `listar_cobertura`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.13.0 · 2026-10-08
+
+`buscar` trae siempre `antes_de_concluir_que_no_esta`: los organismos a los que la propia DT remite cuando declina pronunciarse —tribunales, Contraloría, Superintendencia de Pensiones, SUSESO, salud, SII, Superintendencia de Educación—, con las materias de cada uno y cuántas veces lo hace en el corpus. Es una lista, no un juicio sobre la consulta: sirve para no responder «no encontré» cuando la materia es de otro. Avisa también que el saber no trae sentencias. Medido sobre las 24 preguntas de frontera de la evaluación (no ciegas): nombra al organismo en 23; la señal anterior acertaba 3. El orden de los resultados no cambia. Cuesta unos 2,3 KB por respuesta. Y el saber se presenta ahora para quien emplea —empleador, RRHH, contador— y su pregunta, cómo cumplir: «el criterio de la DT, con su vigencia». Lo litigioso queda dicho como de los tribunales.
+
+- Herramientas: `buscar`, `buscar_por_ancla`, `listar_cobertura`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.12.1 · 2026-10-03
 
 Es la vigencia tipada de la 0.12.0, publicada de verdad: la etiqueta v0.12.0 se puso por error sobre el commit anterior y no llegó a quien usa el saber.

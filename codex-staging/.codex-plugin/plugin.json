@@ -1,17 +1,26 @@
 {
   "name": "normativa-laboral-staging",
-  "version": "0.12.1",
-  "description": "Cómo la Dirección del Trabajo ha resuelto casos laborales en Chile: dictámenes y ordinarios con su cita, su vigencia y sus límites declarados.",
+  "version": "0.13.1",
+  "description": "El criterio de la Dirección del Trabajo, con su vigencia, para quien emplea en Chile: cómo cumplir en jornada, remuneraciones, permisos, teletrabajo o Ley Karin según lo que la DT pronunció, con cita, fecha y las señales de si un pronunciamiento posterior lo confirmó, lo precisó o lo reconsideró.",
   "author": {
     "name": "MindTheContext"
   },
   "repository": "https://github.com/mindthecontext/saber-normativa-laboral",
-  "keywords": [],
+  "keywords": [
+    "dirección del trabajo",
+    "dictámenes",
+    "recursos humanos",
+    "cumplimiento laboral",
+    "empleadores",
+    "jornada",
+    "remuneraciones",
+    "ley karin"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Normativa Laboral",
-    "shortDescription": "Cómo la Dirección del Trabajo ha resuelto casos laborales en Chile: dictámenes y ordinarios con su cita, su vigencia y sus límites declarados.",
-    "longDescription": "Cómo la Dirección del Trabajo ha resuelto casos laborales en Chile: dictámenes y ordinarios con su cita, su vigencia y sus límites declarados."
+    "shortDescription": "El criterio de la Dirección del Trabajo, con su vigencia, para empleadores, RRHH y contadores en Chile.",
+    "longDescription": "Para quien emplea en Chile —empleador, RRHH, contador— y necesita saber cómo cumplir: qué pronunció la Dirección del Trabajo sobre jornada, remuneraciones, feriados y permisos, teletrabajo, Ley Karin, sindicatos o subcontratación. Cada respuesta trae el dictamen u ordinario con su cita, fecha y URL, y su vigencia tipada: si un pronunciamiento posterior lo confirmó, lo precisó o lo reconsideró, leído del propio corpus y medido por muestra. Dice también qué no resuelve la DT —lo que deciden los tribunales, la SUSESO, la Superintendencia de Pensiones o la Contraloría— y a quién corresponde. No es asesoría ni trae sentencias."
   },
   "mcpServers": "./.mcp.json"
 }
