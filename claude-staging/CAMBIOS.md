@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.14.0 · 2026-10-12
+
+Los pronunciamientos se sirven anonimizados, de cara a la Ley 21.719 (rige desde el 01-12-2026). Del texto y del resumen se quitan las personas naturales privadas —quien consulta, trabajadores, dirigentes, abogados y representantes de una parte, familiares— y sus correos, teléfonos, domicilios y RUT. Cada persona queda como [PERSONA_n], la misma en todo el documento, para que se siga entendiendo. Se conservan las empresas, los sindicatos, los organismos, los cargos, las normas, la firma del funcionario de la DT y el tachado de la propia DT. Medido contra 120 documentos al azar, revisados por quien no vio el resultado: se quita el 99,3 % de los nombres, y 117 de los 120 quedan sin ningún dato personal. La búsqueda responde igual que antes (medido sobre 93 preguntas). El enlace a dt.gob.cl sigue mostrando el documento original.
+
+- Herramientas: `buscar`, `buscar_por_ancla`, `listar_cobertura`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.13.1 · 2026-10-10
 
 La skill `resolver-un-caso` nombra, antes de buscar, la institución del caso y su artículo, con un mapa verificado de las instituciones del Código del Trabajo que más se consultan. Cuando no hay un pronunciamiento del caso exacto, busca el criterio general de la institución y lo dice como tal. Y ordena lo que entrega por lo que decide: primero el que resuelve el supuesto exacto y sigue vigente, nunca primero uno solo relacionado o una declinación. Lo litigioso se responde en dos mitades: lo que la DT dijo sobre las formalidades, y que el fondo lo decide un tribunal. Medido en dos conjuntos ciegos nuevos, con GPT como agente y un juez independiente: con preguntas nuevas, el primer resultado responde en torno al 60 % de las veces. La diferencia con la skill anterior queda dentro del ruido de una corrida a otra (dos corridas idénticas difieren en 7 puntos), así que la mejora no está demostrada: se adopta por su contenido. Las herramientas y los datos no cambian. Y trae lo de la 0.13.0, que no llegó a quien usa el saber: la etiqueta v0.13.0 se publicó con el servidor anunciando todavía la versión 0.12.1, y la verificación de staging la rechazó.
