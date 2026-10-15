@@ -4,6 +4,22 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.15.1 · 2026-10-15
+
+Nueva herramienta `buscar_condenas`: la nómina que la DT publica cada semestre de empresas y organizaciones sindicales con sentencia FIRME por prácticas antisindicales o desleales (art. 294 bis), de 2005 a 2026: 984 condenas, con los hechos («reemplazo de trabajadores en huelga», «despido de dirigente con fuero»), la causa, el tribunal, la fecha, quién denunció y la multa, y el enlace al informe de la DT. Sirve para decir si una conducta ya terminó en condena y con qué multa. Y `buscar`, cuando la consulta es de libertad sindical, avisa cuántas condenas hay con hechos parecidos. No trae las sentencias. Los registros se extrajeron de tablas de PDF (algunos por OCR) y se validaron contra el informe: el 96 % trae la causa tal como figura en él, y los que no, van marcados como dudosos. Los infractores que son personas naturales se sirven sin nombre ni RUT.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `ver_articulo`, `ver_cambios`, `ver_documento` · aparece `buscar_condenas`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.15.0 · 2026-10-15
+
+Sin cambios para quien lo usa: la etiqueta v0.15.0 se puso sobre la 0.14.0, antes de incorporar las condenas, y la verificación de staging la rechazó. Lo que iba a traer está en la 0.15.1.
+
+- Herramientas: `buscar`, `buscar_por_ancla`, `listar_cobertura`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.14.0 · 2026-10-12
 
 Los pronunciamientos se sirven anonimizados, de cara a la Ley 21.719 (rige desde el 01-12-2026). Del texto y del resumen se quitan las personas naturales privadas —quien consulta, trabajadores, dirigentes, abogados y representantes de una parte, familiares— y sus correos, teléfonos, domicilios y RUT. Cada persona queda como [PERSONA_n], la misma en todo el documento, para que se siga entendiendo. Se conservan las empresas, los sindicatos, los organismos, los cargos, las normas, la firma del funcionario de la DT y el tachado de la propia DT. Medido contra 120 documentos al azar, revisados por quien no vio el resultado: se quita el 99,3 % de los nombres, y 117 de los 120 quedan sin ningún dato personal. La búsqueda responde igual que antes (medido sobre 93 preguntas). El enlace a dt.gob.cl sigue mostrando el documento original.

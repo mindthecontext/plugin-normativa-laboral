@@ -56,7 +56,9 @@ encontró, que no es lo mismo que la DT no se haya pronunciado.
 - **Esto no es asesoría laboral.** Entrega pronunciamientos de la DT con su fuente para que un
   profesional decida. No reemplaza a un abogado laboralista.
 - **Un pronunciamiento de la DT no es la ley ni un fallo.** Es la interpretación administrativa del
-  Servicio. **Aquí no hay sentencias de tribunales**, y hay materias que solo resuelven ellos.
+  Servicio. **Aquí no hay sentencias de tribunales**, y hay materias que solo resuelven ellos. Lo único judicial es
+  la nómina que publica la DT de **condenas firmes por prácticas antisindicales** (art. 294 bis, 2005-2026), con los
+  hechos, el tribunal y la multa, pero sin el texto del fallo: `buscar_condenas`.
 - **Hay materias que la DT no resuelve.** Cada respuesta de `buscar` trae `antes_de_concluir_que_no_esta`: los
   organismos a los que la propia DT remite cuando declina —tribunales, Contraloría, Superintendencia de Pensiones,
   SUSESO y otros— con sus materias. Para un empleador las más frecuentes son las licencias médicas y los accidentes del

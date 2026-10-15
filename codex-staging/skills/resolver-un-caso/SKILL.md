@@ -253,6 +253,12 @@ derecho laboral**: ahí este saber deja de ser verificable.
 También hay **materias que la DT no resuelve** —lo que deciden los tribunales, o los organismos de
 seguridad social y pensiones—. Si la consulta cae ahí, dilo en vez de improvisar.
 
+**Si la pregunta es de libertad sindical** —huelga, fuero, dirigentes, cuota sindical, negociación colectiva—, mira
+`condenas_relacionadas` en la respuesta de `buscar`, o usa `buscar_condenas`: es la nómina que la DT publica de condenas
+FIRMES por prácticas antisindicales (art. 294 bis), con los hechos, el tribunal y la multa. Sirve para decir «esta
+conducta ya terminó en condena, y con multas de tanto», junto al criterio de la DT. No trae la sentencia: no le atribuyas
+un razonamiento, y si el registro dice `dudoso`, compruébalo en su `fuente_url`.
+
 ## 9 · Responde con cita, condición, vigencia y límite
 
 Una respuesta terminada tiene cinco partes:
