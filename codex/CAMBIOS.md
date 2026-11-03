@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.4 · 2026-11-03
+
+`buscar` ofrece la ficha en dos formas más de preguntar que la prueba a mano con preguntas de otros temas mostró que faltaban: quien pregunta por los «domingos y festivos» de ejecutivos de ventas con un bono por meta sin decir «semana corrida» (ficha de semana corrida), y quien pide teletrabajo porque cuida a su madre o a su padre (ficha de teletrabajo por cuidado). En esa misma prueba las preguntas de otros temas (horas extra, finiquito, licencia, lugar de trabajo, vacaciones, recargo dominical) no recibieron ficha, y siguen sin recibirla. Una pregunta sobre el feriado de vendedores con comisión sí recibe la ficha de semana corrida: es cercana, pero no es de ese tema, y la respuesta lo dice. Sólo cambian las frases con que se ofrece cada ficha, no su contenido.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.3 · 2026-11-03
 
 La ficha de semana corrida atribuye cada regla a quien la dijo. La prueba a mano mostró que presentaba como del ORD 833 (2024) una doctrina que es del ORD 3262/66 (2008) y que el 833 reitera, y que parte de la afirmación sobre «devengarse diariamente» (que cuenta lo que el trabajador incorpora a su patrimonio día a día aunque se pague una vez al mes) no estaba en la cita que la acompañaba. Ahora la afirmación nombra las dos fechas, la cita del 3262/66 incluye esa frase, se suma cómo entiende la DT la remuneración variable, y la regla de las comisiones repartidas entre todos los vendedores se apoya también en el 3262/66. Las citas se volvieron a comprobar contra el corpus. Sólo cambia la ficha; sigue siendo un borrador sin validar por un abogado laboralista.
