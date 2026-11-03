@@ -119,6 +119,24 @@ de la DT es…». Eso es mejor respuesta que un dictamen parecido sobre otro sup
 **Si no aparece nada**, eso no es una respuesta: el corpus no es el archivo completo de la DT. Reformula con otros términos
 (la norma, el nombre de la ley, el descriptor habitual) antes de concluir que no hay respaldo.
 
+## 3 bis · Si `buscar` trae una ficha, ábrela primero
+
+Para unos pocos temas que el empleador consulta mucho —semana corrida, cambio unilateral de turno o de jornada,
+teletrabajo por cuidado—, `buscar` trae `fichas_relacionadas` y una advertencia que empieza «HAY UNA FICHA». Ábrela con
+`obtener_ficha`: reúne el criterio con el pasaje literal de cada pronunciamiento, las tensiones que el corpus no resuelve y lo
+que la DT no resuelve, y suele traer pronunciamientos recientes que la búsqueda libre no pone primero.
+
+Tres cuidados:
+
+- **Es un borrador sin validar por un abogado.** Dilo en la respuesta («esto sale de una ficha en borrador»). Los pasajes son
+  literales, pero la redacción de cada afirmación no está revisada.
+- **No la copies: verifica.** Abre con `ver_documento` los pronunciamientos que sostienen lo que vas a afirmar, y mira su
+  vigencia y las advertencias de la ficha (citas que ya no están, datos más nuevos que la ficha).
+- **Una tensión es una tensión.** Si la ficha dice que dos pronunciamientos no están resueltos, preséntalos los dos con su
+  fecha, el posterior primero; no elijas uno.
+
+La ficha no reemplaza las dos pasadas de `buscar`: si el caso se sale de lo que la ficha cubre, sigue con la búsqueda.
+
 ## 4 · No confíes en el orden: comprueba que RESUELVE
 
 La prosa administrativa genérica se parece a cualquier pregunta. Por cada candidato, antes de citarlo,

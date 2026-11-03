@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.0 · 2026-11-03
+
+Nueva herramienta `obtener_ficha`: para tres temas que el empleador consulta mucho —semana corrida (vendedores con comisiones), cambio unilateral de turno o de jornada, y teletrabajo por cuidado— entrega una FICHA con lo que la DT ha dicho, afirmación por afirmación, con el pasaje literal de cada pronunciamiento y su vigencia leída hoy; las tensiones que el corpus no resuelve (por ejemplo, el ORD 2658/31 de 2014 frente al 6519/2018 sobre modificar turnos del reglamento interno) y lo que la DT no resuelve. Es un BORRADOR sin validar por un abogado laboralista y cada respuesta lo dice: los pasajes se comprueban a máquina contra el corpus, pero la redacción de cada afirmación no está revisada. `buscar` avisa «hay una ficha» cuando la consulta contiene una de las frases clave de la ficha, y no ofrece ninguna si no. La skill `resolver-un-caso` indica abrirla primero, presentarla como borrador y verificar las citas. Los demás temas no tienen ficha: sigue siendo `buscar`. Trae además todo lo de la 0.15.2.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento` · aparece `obtener_ficha`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.15.2 · 2026-11-03
 
 `ver_articulo` avisa cuándo el texto del Código no es todavía el que rige. La Ley 21.561 baja la jornada por escalones y el Código muestra el valor final: el artículo 22 decía «cuarenta horas» cuando hoy rige el escalón de 42 (44 desde el 26-04-2024, 42 desde el 26-04-2026, 40 desde el 26-04-2028). Ahora la primera advertencia dice cuál rige a la fecha de la consulta. Lo mismo para los demás artículos que nombra el artículo primero transitorio de esa ley (22 bis, 31, 34 bis, 106, 109, 149, 152 ter D y 152 quáter Y), y para los que sólo cambian de jornada al quinto año. No se aplica a `buscar_por_ancla`. Además, las respuestas describen los datos por su fecha de generación («datos del 2026-10-15») y no por una etiqueta que se parecía a una versión del servicio, y quien opera el servicio puede fijar un tope al texto que entrega `ver_documento`; sin esa variable, el texto se entrega como antes. Y la vigencia dice más de lo que ya sabía: cuando un pronunciamiento confirma, precisa o reconsidera uno que NO está en el corpus (el ORD 199/2026 niega reconsiderar un dictamen de 1995), `ver_documento` muestra el destino y avisa que sólo se ve desde ese lado; y cuando reconsidera doctrina previa sin nombrarla (el ORD 253/21 sobre la rebaja a 42 horas), lo dice, y `buscar` avisa «tensión sin resolver» si entre los resultados hay anteriores sobre lo mismo. No decide cuál queda superado: lo declara.
