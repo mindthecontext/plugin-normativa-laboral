@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.1 · 2026-11-03
+
+`buscar` ofrece la ficha en más de las formas en que se pregunta. En la prueba a mano de la 0.16.0, dos de cinco preguntas que la ficha cubría no la recibieron: pasar a un trabajador de turno de día a turno de noche, y pedir teletrabajo para cuidar a un hijo. Se agregan frases clave a las fichas de turnos y de teletrabajo por cuidado, y las preguntas de ejemplo de cada ficha (que ahora se escriben completas, sin depender de la pregunta anterior) activan su propia ficha. Sigue siendo preferible no ofrecer una ficha que ofrecer la que no es: las consultas de otros temas (feriado, despido con licencia, sala cuna, equipos de teletrabajo) no reciben ficha. Las fichas siguen siendo borradores sin validar por un abogado laboralista.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.0 · 2026-11-03
 
 Nueva herramienta `obtener_ficha`: para tres temas que el empleador consulta mucho —semana corrida (vendedores con comisiones), cambio unilateral de turno o de jornada, y teletrabajo por cuidado— entrega una FICHA con lo que la DT ha dicho, afirmación por afirmación, con el pasaje literal de cada pronunciamiento y su vigencia leída hoy; las tensiones que el corpus no resuelve (por ejemplo, el ORD 2658/31 de 2014 frente al 6519/2018 sobre modificar turnos del reglamento interno) y lo que la DT no resuelve. Es un BORRADOR sin validar por un abogado laboralista y cada respuesta lo dice: los pasajes se comprueban a máquina contra el corpus, pero la redacción de cada afirmación no está revisada. `buscar` avisa «hay una ficha» cuando la consulta contiene una de las frases clave de la ficha, y no ofrece ninguna si no. La skill `resolver-un-caso` indica abrirla primero, presentarla como borrador y verificar las citas. Los demás temas no tienen ficha: sigue siendo `buscar`. Trae además todo lo de la 0.15.2.
