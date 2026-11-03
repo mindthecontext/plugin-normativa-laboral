@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.15.2 · 2026-11-03
+
+`ver_articulo` avisa cuándo el texto del Código no es todavía el que rige. La Ley 21.561 baja la jornada por escalones y el Código muestra el valor final: el artículo 22 decía «cuarenta horas» cuando hoy rige el escalón de 42 (44 desde el 26-04-2024, 42 desde el 26-04-2026, 40 desde el 26-04-2028). Ahora la primera advertencia dice cuál rige a la fecha de la consulta. Lo mismo para los demás artículos que nombra el artículo primero transitorio de esa ley (22 bis, 31, 34 bis, 106, 109, 149, 152 ter D y 152 quáter Y), y para los que sólo cambian de jornada al quinto año. No se aplica a `buscar_por_ancla`. Además, las respuestas describen los datos por su fecha de generación («datos del 2026-10-15») y no por una etiqueta que se parecía a una versión del servicio, y quien opera el servicio puede fijar un tope al texto que entrega `ver_documento`; sin esa variable, el texto se entrega como antes. Y la vigencia dice más de lo que ya sabía: cuando un pronunciamiento confirma, precisa o reconsidera uno que NO está en el corpus (el ORD 199/2026 niega reconsiderar un dictamen de 1995), `ver_documento` muestra el destino y avisa que sólo se ve desde ese lado; y cuando reconsidera doctrina previa sin nombrarla (el ORD 253/21 sobre la rebaja a 42 horas), lo dice, y `buscar` avisa «tensión sin resolver» si entre los resultados hay anteriores sobre lo mismo. No decide cuál queda superado: lo declara.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.15.1 · 2026-10-15
 
 Nueva herramienta `buscar_condenas`: la nómina que la DT publica cada semestre de empresas y organizaciones sindicales con sentencia FIRME por prácticas antisindicales o desleales (art. 294 bis), de 2005 a 2026: 984 condenas, con los hechos («reemplazo de trabajadores en huelga», «despido de dirigente con fuero»), la causa, el tribunal, la fecha, quién denunció y la multa, y el enlace al informe de la DT. Sirve para decir si una conducta ya terminó en condena y con qué multa. Y `buscar`, cuando la consulta es de libertad sindical, avisa cuántas condenas hay con hechos parecidos. No trae las sentencias. Los registros se extrajeron de tablas de PDF (algunos por OCR) y se validaron contra el informe: el 96 % trae la causa tal como figura en él, y los que no, van marcados como dudosos. Los infractores que son personas naturales se sirven sin nombre ni RUT.
