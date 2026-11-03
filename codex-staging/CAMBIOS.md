@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.3 · 2026-11-03
+
+La ficha de semana corrida atribuye cada regla a quien la dijo. La prueba a mano mostró que presentaba como del ORD 833 (2024) una doctrina que es del ORD 3262/66 (2008) y que el 833 reitera, y que parte de la afirmación sobre «devengarse diariamente» (que cuenta lo que el trabajador incorpora a su patrimonio día a día aunque se pague una vez al mes) no estaba en la cita que la acompañaba. Ahora la afirmación nombra las dos fechas, la cita del 3262/66 incluye esa frase, se suma cómo entiende la DT la remuneración variable, y la regla de las comisiones repartidas entre todos los vendedores se apoya también en el 3262/66. Las citas se volvieron a comprobar contra el corpus. Sólo cambia la ficha; sigue siendo un borrador sin validar por un abogado laboralista.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.2 · 2026-11-03
 
 La ficha de cambio unilateral de turno o de jornada suma el ORD 2024 425 (08-07-2024), que reitera con claridad la regla: aunque el sistema de turnos esté pactado en el reglamento interno, el empleador no puede modificarlo sin la anuencia de los trabajadores, y cualquier cambio del régimen de jornada se hace por mutuo consentimiento. Sus dos pasajes se comprobaron contra el corpus; son de lectura OCR y están sólo en el cuerpo del documento, así que la ficha pide verificarlos contra el PDF. Es la ficha la que cambia: el resto del saber queda igual. Sigue siendo un borrador sin validar por un abogado laboralista.
