@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.2 · 2026-11-03
+
+La ficha de cambio unilateral de turno o de jornada suma el ORD 2024 425 (08-07-2024), que reitera con claridad la regla: aunque el sistema de turnos esté pactado en el reglamento interno, el empleador no puede modificarlo sin la anuencia de los trabajadores, y cualquier cambio del régimen de jornada se hace por mutuo consentimiento. Sus dos pasajes se comprobaron contra el corpus; son de lectura OCR y están sólo en el cuerpo del documento, así que la ficha pide verificarlos contra el PDF. Es la ficha la que cambia: el resto del saber queda igual. Sigue siendo un borrador sin validar por un abogado laboralista.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.1 · 2026-11-03
 
 `buscar` ofrece la ficha en más de las formas en que se pregunta. En la prueba a mano de la 0.16.0, dos de cinco preguntas que la ficha cubría no la recibieron: pasar a un trabajador de turno de día a turno de noche, y pedir teletrabajo para cuidar a un hijo. Se agregan frases clave a las fichas de turnos y de teletrabajo por cuidado, y las preguntas de ejemplo de cada ficha (que ahora se escriben completas, sin depender de la pregunta anterior) activan su propia ficha. Sigue siendo preferible no ofrecer una ficha que ofrecer la que no es: las consultas de otros temas (feriado, despido con licencia, sala cuna, equipos de teletrabajo) no reciben ficha. Las fichas siguen siendo borradores sin validar por un abogado laboralista.
