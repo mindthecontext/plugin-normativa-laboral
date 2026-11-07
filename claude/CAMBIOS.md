@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.5 · 2026-11-07
+
+Sólo cambia el texto de las skills. Dejan de decir que el saber es de uso interno, «solo staging, sin asientos de terceros» y que no debe promoverse a producción, porque ya no es así: pasan a decir que el acceso es restringido, por invitación, y que está en evaluación mientras se resuelve con asesoría legal el permiso de la DT. Las respuestas del servicio mantienen su aviso de uso interno. El saber entra al catálogo legal, el mismo del saber tributario. Los datos y las herramientas no cambian.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.4 · 2026-11-03
 
 `buscar` ofrece la ficha en dos formas más de preguntar que la prueba a mano con preguntas de otros temas mostró que faltaban: quien pregunta por los «domingos y festivos» de ejecutivos de ventas con un bono por meta sin decir «semana corrida» (ficha de semana corrida), y quien pide teletrabajo porque cuida a su madre o a su padre (ficha de teletrabajo por cuidado). En esa misma prueba las preguntas de otros temas (horas extra, finiquito, licencia, lugar de trabajo, vacaciones, recargo dominical) no recibieron ficha, y siguen sin recibirla. Una pregunta sobre el feriado de vendedores con comisión sí recibe la ficha de semana corrida: es cercana, pero no es de ese tema, y la respuesta lo dice. Sólo cambian las frases con que se ofrece cada ficha, no su contenido.

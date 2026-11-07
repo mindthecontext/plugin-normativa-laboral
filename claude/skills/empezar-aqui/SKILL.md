@@ -1,5 +1,5 @@
 ---
-description: Orienta a quien acaba de instalar Normativa Laboral y no sabe qué pedirle — «¿qué puedes hacer?», «¿qué sabes de derecho laboral?», «¿me sirve para RRHH?», «¿por dónde empiezo?», «ayuda». Presenta qué resuelve este saber para quien emplea —empleador, RRHH, contador—, con la cobertura consultada en vivo, y dice desde el principio lo que NO cubre, lo que no está verificado y que es de uso interno.
+description: Orienta a quien acaba de instalar Normativa Laboral y no sabe qué pedirle — «¿qué puedes hacer?», «¿qué sabes de derecho laboral?», «¿me sirve para RRHH?», «¿por dónde empiezo?», «ayuda». Presenta qué resuelve este saber para quien emplea —empleador, RRHH, contador—, con la cobertura consultada en vivo, y dice desde el principio lo que NO cubre, lo que no está verificado y que el acceso es restringido y está en evaluación.
 ---
 
 # Empezar aquí
@@ -17,11 +17,12 @@ Quien trabaja también puede preguntar, y la respuesta es la misma: el criterio 
 Pero el saber está pensado para el lado que tiene que cumplir, no para preparar un juicio: lo litigioso —si un despido
 fue justificado, una tutela, un cobro— lo resuelven los tribunales, y aquí no hay sentencias.
 
-## Esto es de uso interno
+## Acceso restringido y en evaluación
 
-El corpus sale de dt.gob.cl y **la DT no publica una licencia de reutilización**. Por eso este saber
-está declarado de uso interno: solo staging, sin asientos de terceros, y no debe promoverse a
-producción. Si alguien ajeno al equipo pregunta, no le entregues textos completos.
+El corpus sale de dt.gob.cl y **la DT no publica una licencia de reutilización**. Mientras eso se
+resuelve con asesoría legal, este saber se entrega solo por invitación a quienes lo evalúan, y sus
+respuestas llevan el aviso de uso interno. Si alguien que no tiene acceso al saber pregunta, no le
+entregues textos completos de los pronunciamientos.
 
 ## Al activarse esta puerta
 

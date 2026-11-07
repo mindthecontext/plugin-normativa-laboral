@@ -12,7 +12,7 @@ casos así, bajo qué condición, si sigue en pie, y qué queda fuera.
 
 1. Llama a `listar_cobertura`. Te dice hasta qué fecha llega el corpus, qué años cubre y cuántos
    pronunciamientos son solo resumen. **Es el límite de todo lo que vas a afirmar.**
-2. Recuerda que este corpus es de **uso interno** y que **la vigencia nunca está declarada**. Nada de
+2. Recuerda que este corpus es de **acceso restringido y en evaluación** (la DT no publica licencia de reutilización) y que **la vigencia nunca está declarada**. Nada de
    lo que sigue se puede presentar como «la doctrina vigente» sin decir cómo se comprobó.
 
 ## 1 · Si la pregunta ya nombra el artículo, entra por él
