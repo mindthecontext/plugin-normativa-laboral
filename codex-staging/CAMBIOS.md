@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.7 · 2026-11-12
+
+Cuatro artículos más que la BCN entregaba cortados a mitad de palabra salen completos: el art. 252 y el 2183 del Código Civil, el art. 144 de la Constitución (el del Consejo Constitucional de 2023) y el art. 97 de la Ley 18.883. A diferencia de los del Código del Trabajo, que se completaron con el Código de la Dirección del Trabajo, éstos vienen de fuentes de terceros y no oficiales (DerechoPedia y leyes-cl.com), y cada artículo lo dice y dice quién más lo corrobora: el 2183 coincide en las dos, el 97 lo corrobora la SUSESO, y el 252 y el 144 tienen una sola fuente. En todos, lo que la BCN sí entregó coincide con el comienzo del texto nuevo, pero el resto no se cotejó contra el texto oficial. Además, el aviso de «puede estar cortado» ya no sale en falso: el Código Civil 398, la Constitución 123, la Ley 16.744 art. 8 y la Ley 19.880 art. 19 bis terminan sin punto final y se confirmó que no están cortados. Siguen avisando la Ley 21.109 art. 2 y la Ley 19.378 art. 14 transitorio, que no se pudieron completar. Los pronunciamientos de la DT y las demás herramientas no cambian.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.6 · 2026-11-12
 
 Tres artículos del Código del Trabajo que la BCN entregaba cortados a mitad de palabra salen ahora completos: el 38 (descanso en domingo y festivos y los sistemas excepcionales de jornada), el 40 bis E (jornada parcial alternativa de estudiantes) y el 152 ter D (descanso de tripulantes). Hasta ahora quien pedía el art. 38 recibía el texto hasta «los días sá» sin ningún aviso. El resto sale de la edición del Código de la Dirección del Trabajo, y cada artículo lo dice: lo que la BCN sí entregó coincide con el comienzo de ese texto, pero el resto no se cotejó contra el texto oficial de la BCN. Las tablas del 152 ter D vienen aplanadas por columnas: verifica las cifras antes de citarlas. Además, `ver_articulo` avisa cuando un artículo de otra ley termina sin puntuación final y puede estar cortado (Código Civil, Constitución y cuatro leyes más: están listados en el manifiesto). El criterio es estrecho y no prueba que no haya otros cortes. Los pronunciamientos de la DT y las demás herramientas no cambian.
