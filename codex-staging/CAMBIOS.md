@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.8 · 2026-11-13
+
+`ver_articulo` avisa, en los art. 431 y 445 del Código del Trabajo, que la Ley 21.780 (D.O. 13-11-2025, art. 49) cambiará la redacción de su inciso segundo («privilegio de pobreza» y las Corporaciones de Asistencia Judicial pasan a «beneficio de asistencia jurídica gratuita» y al Servicio Nacional de Acceso a la Justicia y Defensoría de Víctimas), pero que esa ley rige en forma gradual: desde mayo de 2027 en las regiones de Arica a Valparaíso, desde mayo de 2028 en la Metropolitana, O'Higgins, Maule y Magallanes, y desde noviembre de 2029 en las demás. Hoy sigue vigente la redacción que sirve el saber, que es la de la BCN; el Código del Trabajo que publica la DT ya trae la nueva. El aviso se ajusta solo a la fecha de la consulta. No se verificó si el art. 49 tiene una regla de entrada en vigencia propia distinta del cronograma de la ley. El texto de los artículos no cambia.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.7 · 2026-11-12
 
 Cuatro artículos más que la BCN entregaba cortados a mitad de palabra salen completos: el art. 252 y el 2183 del Código Civil, el art. 144 de la Constitución (el del Consejo Constitucional de 2023) y el art. 97 de la Ley 18.883. A diferencia de los del Código del Trabajo, que se completaron con el Código de la Dirección del Trabajo, éstos vienen de fuentes de terceros y no oficiales (DerechoPedia y leyes-cl.com), y cada artículo lo dice y dice quién más lo corrobora: el 2183 coincide en las dos, el 97 lo corrobora la SUSESO, y el 252 y el 144 tienen una sola fuente. En todos, lo que la BCN sí entregó coincide con el comienzo del texto nuevo, pero el resto no se cotejó contra el texto oficial. Además, el aviso de «puede estar cortado» ya no sale en falso: el Código Civil 398, la Constitución 123, la Ley 16.744 art. 8 y la Ley 19.880 art. 19 bis terminan sin punto final y se confirmó que no están cortados. Siguen avisando la Ley 21.109 art. 2 y la Ley 19.378 art. 14 transitorio, que no se pudieron completar. Los pronunciamientos de la DT y las demás herramientas no cambian.
