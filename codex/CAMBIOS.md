@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.11 · 2026-11-21
+
+El art. 97 de la Ley 18.883 (asignaciones de los funcionarios municipales) sale ahora del visor web oficial de la BCN y no de leyes-cl.com, un sitio de un tercero. El texto servido no cambia: sin las anotaciones al margen que el visor intercala, el visor lo trae idéntico, palabra por palabra, en su última versión (01-09-2025). leyes-cl.com y la SUSESO quedan como fuentes que lo corroboran. Además se corrige el aviso de `ver_articulo` en cuatro artículos completados, que decía a la vez que el texto «no se cotejó» contra la BCN y que el visor de la BCN lo corroboraba: en el 97 ahora dice que el texto completo sale del visor oficial, y en el Código Civil 252 y 2183 y la Constitución 144 (que siguen saliendo de DerechoPedia o leyes-cl.com) dice que el texto completo se cotejó con el visor oficial y coincide, como ya se había verificado en la 0.16.9. El texto de esos artículos no cambia. Los pronunciamientos de la DT y las demás herramientas no cambian.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.10 · 2026-11-21
 
 El visor web oficial de la BCN confirma los tres artículos del Código del Trabajo que la 0.16.6 había completado con el Código de la Dirección del Trabajo (art. 38, 40 bis E y 152 ter D). Comparados palabra por palabra con la versión vigente en el visor, coinciden: el 40 bis E y el 152 ter D son idénticos, y el art. 38 sólo difiere en una coma («incisos tercero, cuarto y quinto, las partes…» en la DT, sin coma en el visor). Las dos tablas de descanso de tripulantes del 152 ter D dan las mismas cifras en ambas fuentes, y el texto de la DT no trae modificaciones que todavía no rijan. El aviso de `ver_articulo` en esos tres artículos deja de decir que el resto «no se cotejó contra el texto oficial de la BCN» y pasa a decir que se cotejó y coincide; la nota del 152 ter D deja de pedir verificar las cifras. Los pronunciamientos de la DT y las demás herramientas no cambian.
