@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.9 · 2026-11-21
+
+Ya no queda ningún artículo cortado. Los dos que faltaban salen completos: el art. 2 de la Ley 21.109 (el XML de la BCN lo entregaba sin sus dos últimas frases: la denuncia conforme al art. 175 del Código Procesal Penal, que la obligación no se entiende satisfecha por acciones de terceros y la especial gravedad de la violencia contra los asistentes de la educación) y el art. 14 transitorio de la Ley 19.378 (la bonificación por una vez de 1995). Esta vez la fuente es oficial: el visor web de la BCN (Ley Chile) entrega el artículo completo, y la huella del texto coincide con la que se calculó sobre el visor; el 14 transitorio lo corrobora además la copia de la ley de la Municipalidad de Punta Arenas. Además, el visor oficial de la BCN confirma, comparado por oraciones, los cuatro artículos que la 0.16.7 había completado con fuentes de terceros (Código Civil 252 y 2183, Constitución 144 y Ley 18.883 art. 97): el 2183 idéntico y los otros tres con el mismo contenido, salvo las anotaciones al margen que el visor intercala en el texto. El aviso de esas recuperaciones deja de repetir que la fuente es de un tercero. Los pronunciamientos de la DT y las demás herramientas no cambian.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.8 · 2026-11-13
 
 `ver_articulo` avisa, en los art. 431 y 445 del Código del Trabajo, que la Ley 21.780 (D.O. 13-11-2025, art. 49) cambiará la redacción de su inciso segundo («privilegio de pobreza» y las Corporaciones de Asistencia Judicial pasan a «beneficio de asistencia jurídica gratuita» y al Servicio Nacional de Acceso a la Justicia y Defensoría de Víctimas), pero que esa ley rige en forma gradual: desde mayo de 2027 en las regiones de Arica a Valparaíso, desde mayo de 2028 en la Metropolitana, O'Higgins, Maule y Magallanes, y desde noviembre de 2029 en las demás. Hoy sigue vigente la redacción que sirve el saber, que es la de la BCN; el Código del Trabajo que publica la DT ya trae la nueva. El aviso se ajusta solo a la fecha de la consulta. No se verificó si el art. 49 tiene una regla de entrada en vigencia propia distinta del cronograma de la ley. El texto de los artículos no cambia.
