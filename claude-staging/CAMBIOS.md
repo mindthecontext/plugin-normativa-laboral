@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.16.10 · 2026-11-21
+
+El visor web oficial de la BCN confirma los tres artículos del Código del Trabajo que la 0.16.6 había completado con el Código de la Dirección del Trabajo (art. 38, 40 bis E y 152 ter D). Comparados palabra por palabra con la versión vigente en el visor, coinciden: el 40 bis E y el 152 ter D son idénticos, y el art. 38 sólo difiere en una coma («incisos tercero, cuarto y quinto, las partes…» en la DT, sin coma en el visor). Las dos tablas de descanso de tripulantes del 152 ter D dan las mismas cifras en ambas fuentes, y el texto de la DT no trae modificaciones que todavía no rijan. El aviso de `ver_articulo` en esos tres artículos deja de decir que el resto «no se cotejó contra el texto oficial de la BCN» y pasa a decir que se cotejó y coincide; la nota del 152 ter D deja de pedir verificar las cifras. Los pronunciamientos de la DT y las demás herramientas no cambian.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.16.9 · 2026-11-21
 
 Ya no queda ningún artículo cortado. Los dos que faltaban salen completos: el art. 2 de la Ley 21.109 (el XML de la BCN lo entregaba sin sus dos últimas frases: la denuncia conforme al art. 175 del Código Procesal Penal, que la obligación no se entiende satisfecha por acciones de terceros y la especial gravedad de la violencia contra los asistentes de la educación) y el art. 14 transitorio de la Ley 19.378 (la bonificación por una vez de 1995). Esta vez la fuente es oficial: el visor web de la BCN (Ley Chile) entrega el artículo completo, y la huella del texto coincide con la que se calculó sobre el visor; el 14 transitorio lo corrobora además la copia de la ley de la Municipalidad de Punta Arenas. Además, el visor oficial de la BCN confirma, comparado por oraciones, los cuatro artículos que la 0.16.7 había completado con fuentes de terceros (Código Civil 252 y 2183, Constitución 144 y Ley 18.883 art. 97): el 2183 idéntico y los otros tres con el mismo contenido, salvo las anotaciones al margen que el visor intercala en el texto. El aviso de esas recuperaciones deja de repetir que la fuente es de un tercero. Los pronunciamientos de la DT y las demás herramientas no cambian.
