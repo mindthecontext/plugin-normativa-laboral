@@ -66,10 +66,13 @@ encontró, que no es lo mismo que la DT no se haya pronunciado.
   trabajo (SUSESO y mutualidades), las cotizaciones (Superintendencia de Pensiones) y el personal del Estado
   (Contraloría). Si la consulta cae ahí, dilo y nombra al organismo.
 - **De la ley, están el Código del Trabajo, el Código Civil, la Constitución y las leyes que los dictámenes más
-  aplican** (16.744, 18.883, 19.296, 19.378, 19.464, 19.880, 21.109 y las reformas recientes; la lista exacta la da
+  aplican** (16.744, 18.883, 19.296, 19.378, 19.464, 19.880, 21.109, el Estatuto Docente, la 19.728 del seguro de
+  cesantía, el DFL 2 de 1967 orgánico de la DT, el DFL 2 de 1998 de subvenciones, el decreto 1.889 de atención
+  primaria, el decreto 44 de 2024 sobre riesgos laborales y las reformas recientes; la lista exacta la da
   `listar_cobertura`). `ver_articulo` entrega cada artículo en la versión vigente que publica la BCN, con los
   dictámenes que lo citan. **No está su historia** (el texto que regía antes) **ni las demás normas** —entre ellas
-  el Estatuto Docente, la 19.728 y la 20.123—: si la respuesta depende de ellas, dilo y remite a Ley Chile.
+  la 20.940, el DL 3.500 y la 20.123—: si la respuesta depende de ellas, dilo y remite a Ley Chile. El decreto 54
+  de 1969 (comités paritarios) está **derogado desde el 01-02-2025** por el 44: se sirve marcado así.
 - **La vigencia no está declarada; está tipada.** La DT no la publica de forma estructurada, y que un dictamen
   fue reconsiderado **no figura en el documento superado**. Este saber lee del propio corpus lo que otros
   pronunciamientos posteriores dicen de cada uno: si lo **confirmaron** (negaron reconsiderarlo o lo declararon
@@ -77,10 +80,12 @@ encontró, que no es lo mismo que la DT no se haya pronunciado.
   `ultima_senal`. Es una regla medida por muestra —confirma 38 de 40, precisa 19 de 20, supera 15 de 16—, no una
   declaración: una confirmación dice que la DT sostuvo el criterio **en esa fecha**, y la ausencia de señales no
   prueba que siga vigente. Es lo que este saber agrega sobre ir a dt.gob.cl: úsalo, y dilo con su fecha.
-- **El corpus no es el archivo completo de la DT.** Es el catálogo de dictámenes y ordinarios que exponen
-  sus listados por año (1997-2026), y nadie verificó que esos listados traigan todo lo publicado. Faltan
-  las circulares y órdenes de servicio. «No aparece» no significa «no existe», y puede haber un
-  pronunciamiento posterior a la última cosecha.
+- **El corpus no es el archivo completo de la DT.** Es el catálogo de dictámenes y ordinarios que exponen los
+  listados por año del sitio de la DT (hay de 1990, de 1995 y de 1996 en adelante; de 1991 a 1994 el sitio no
+  lista nada), más lo que se halló recorriendo números de documento que ningún listado trae (ordinarios de 2012 a
+  2015 subidos tarde), más las pocas circulares, órdenes de servicio y resoluciones que la DT publica en su sitio
+  (la serie completa no está). «No aparece» no significa «no existe», y puede haber un pronunciamiento posterior a
+  la última cosecha (22-11-2026).
 - **No todo se leyó entero.** Cada resultado dice su `texto_origen`:
   - `html`: se leyó el cuerpo de la página, y se puede citar un pasaje literal. Son unos siete de cada diez.
   - `ocr`: el cuerpo era un PDF **escaneado** y se leyó por OCR. Son casi tres de cada diez, y **la mayoría de lo
