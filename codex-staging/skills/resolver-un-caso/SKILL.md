@@ -222,7 +222,7 @@ Pasa `norma` («Ley 19.378», «Código Civil», «Constitución») y `transitor
 nombran en palabras («tercero»), pero se pueden pedir en cifras («3»).
 
 Cada artículo viene con cuántos dictámenes del corpus lo citan; para recorrerlos, con su vigencia y por páginas,
-usa `buscar_por_ancla`. `buscar_por_ancla` también llega a normas cuyo texto NO está aquí (la Ley 20.940, el DL 3.500, la
+usa `buscar_por_ancla`. `buscar_por_ancla` también llega a normas cuyo texto NO está aquí (el DL 3.500, la
 20.123): trae lo que la DT pronunció al aplicarlas, aunque no puedas leer el artículo. Y cuando dos dictámenes aplican la misma norma de forma distinta, leer
 el artículo ayuda a exponer la tensión, **pero no la resuelve tú**: preséntala.
 
@@ -230,8 +230,9 @@ Dos límites que se dicen:
 
 - **Es la versión vigente**, con su `fecha_version`. Si la pregunta es por un hecho pasado y el artículo
   cambió después, el texto de entonces no está aquí.
-- **Las demás normas no están**: la Ley 20.940 (modernización de las relaciones laborales), el DL 3.500, la 20.123
-  (subcontratación) y otras.
+- **Las demás normas no están**: el DL 3.500 (pensiones), la 20.123 (subcontratación), los convenios de la OIT y otras.
+  Las leyes que modifican el Código del Trabajo (la 20.940, la 19.759, la 21.220) están con sus propios artículos, no con
+  el texto resultante: para éste, `ver_articulo` en el Código.
   `ver_articulo` responde con la lista de las que sí hay. Si la respuesta depende de ellas, **no las completes con conocimiento
   general**: di qué pronunció la DT sobre esa norma y remite a Ley Chile para el texto.
 
