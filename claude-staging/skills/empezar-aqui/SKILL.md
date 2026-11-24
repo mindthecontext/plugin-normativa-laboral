@@ -70,8 +70,9 @@ encontró, que no es lo mismo que la DT no se haya pronunciado.
   Administración, la 10.336 de la Contraloría, la 19.518 de capacitación, el Estatuto Administrativo (DFL 29), la Ley de Municipalidades (DFL 1 de 2006), el DL 3.500 de pensiones, el DL 249 de escala de sueldos, el DFL 44 de 1978 de subsidios por incapacidad laboral, los decretos 3 de 1984 (licencias médicas), 453 de 1991 (reglamento del Estatuto Docente), 594 de 1999 (condiciones sanitarias en el trabajo) y 969 de 1933, el Código Sanitario, la Ley 20.123 de subcontratación, la Ley 20.422 de discapacidad, los convenios 87, 98 y 151 de la OIT, y otras, el DFL 2 de 1967 orgánico de la DT, el DFL 2 de 1998 de subvenciones, el decreto 1.889 de atención
   primaria, el decreto 44 de 2024 sobre riesgos laborales y las reformas recientes; la lista exacta la da
   `listar_cobertura`). `ver_articulo` entrega cada artículo en la versión vigente que publica la BCN, con los
-  dictámenes que lo citan. **No está su historia** (el texto que regía antes) **ni las demás normas** —entre ellas
-  los convenios 111 y 135 de la OIT y el Decreto 26 de 2016—: si la respuesta depende de ellas, dilo y remite a Ley Chile. El decreto 54
+  dictámenes que lo citan, y avisa cuando la BCN ya publicó un texto que rige después (la Ley 19.628 reescrita por la 21.719 desde el
+  01-12-2026, el DL 3.500 desde el 01-04-2027, el Código del Trabajo del adulto mayor desde el 01-06-2027): «ESTE ARTÍCULO CAMBIA» o «AÚN NO RIGE». **No está su historia** (el texto que regía antes) **ni las demás normas** —entre ellas
+  el DFL 5 de 1993 y el DFL 1 de 2005 de Educación—: si la respuesta depende de ellas, dilo y remite a Ley Chile. El decreto 54
   de 1969 (comités paritarios) está **derogado desde el 01-02-2025** por el 44: se sirve marcado así.
 - **La vigencia no está declarada; está tipada.** La DT no la publica de forma estructurada, y que un dictamen
   fue reconsiderado **no figura en el documento superado**. Este saber lee del propio corpus lo que otros

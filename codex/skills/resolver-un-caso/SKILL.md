@@ -222,15 +222,22 @@ Pasa `norma` («Ley 19.378», «Código Civil», «Constitución») y `transitor
 nombran en palabras («tercero»), pero se pueden pedir en cifras («3»).
 
 Cada artículo viene con cuántos dictámenes del corpus lo citan; para recorrerlos, con su vigencia y por páginas,
-usa `buscar_por_ancla`. `buscar_por_ancla` también llega a normas cuyo texto NO está aquí (los convenios 111 y 135 de la OIT, el
-Decreto 26 de 2016): trae lo que la DT pronunció al aplicarlas, aunque no puedas leer el artículo. Y cuando dos dictámenes aplican la misma norma de forma distinta, leer
+usa `buscar_por_ancla`. `buscar_por_ancla` también llega a normas cuyo texto NO está aquí (el DFL 5 de 1993, el DFL 1 de 2005 de
+Educación y las que la DT cita en pocos pronunciamientos): trae lo que la DT pronunció al aplicarlas, aunque no puedas leer el artículo. Y cuando dos dictámenes aplican la misma norma de forma distinta, leer
 el artículo ayuda a exponer la tensión, **pero no la resuelve tú**: preséntala.
 
 Dos límites que se dicen:
 
-- **Es la versión vigente**, con su `fecha_version`. Si la pregunta es por un hecho pasado y el artículo
-  cambió después, el texto de entonces no está aquí.
-- **Las demás normas no están**: los convenios 111 y 135 de la OIT, el Decreto 26 de 2016, el DFL 5 de 1993 y otras.
+- **Es la versión vigente a la fecha de la consulta**, con su `fecha_version`. Si la pregunta es por un hecho pasado y el artículo
+  cambió después, el texto de entonces no está aquí (salvo `texto_anterior`, cuando una versión nueva ya empezó a regir).
+- **La BCN publica por adelantado lo que va a regir**, y `ver_articulo` lo dice antes que todo lo demás: «ESTE ARTÍCULO CAMBIA» (el
+  texto nuevo va en `cambios_ya_publicados`, con la fecha desde la que rige) o «ESTE ARTÍCULO AÚN NO RIGE» (lo agrega una
+  modificación futura). Pasa con la Ley 19.628 reescrita por la 21.719 desde el 01-12-2026, el DL 3.500 de la reforma de pensiones
+  desde el 01-04-2027 y el Código del Trabajo del trabajador adulto mayor desde el 01-06-2027, entre otras normas. Si la pregunta
+  es por hechos desde esa fecha, usa ese texto y dilo; si es por hoy, usa `texto`; nunca apliques el nuevo a hechos anteriores.
+  Otras normas pueden tener versiones diferidas que el saber no leyó: el aviso lo dice cuando la BCN ya anunció una.
+- **Las demás normas no están**: el DFL 5 de 1993, el DFL 1 de 2005 de Educación, el Decreto 101 de 1918, la Ley 18.620 (la BCN sólo
+  tiene un PDF) y las que la DT cita en menos de tres pronunciamientos (`listar_cobertura` dice cuáles sí hay).
   Las leyes que modifican el Código del Trabajo (la 20.940, la 19.759, la 21.220) están con sus propios artículos, no con
   el texto resultante: para éste, `ver_articulo` en el Código.
   `ver_articulo` responde con la lista de las que sí hay. Si la respuesta depende de ellas, **no las completes con conocimiento
