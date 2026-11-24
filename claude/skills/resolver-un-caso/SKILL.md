@@ -235,6 +235,12 @@ Dos límites que se dicen:
   desde el 01-04-2027 y el Código del Trabajo del trabajador adulto mayor desde el 01-06-2027, entre otras normas. Si la pregunta
   es por hechos desde esa fecha, usa ese texto y dilo; si es por hoy, usa `texto`; nunca apliques el nuevo a hechos anteriores.
   Otras normas pueden tener versiones diferidas que el saber no leyó: el aviso lo dice cuando la BCN ya anunció una.
+- **Un texto refundido renumera, y la DT cita unas veces la numeración de la ley y otras la del refundido.** Cuando la BCN anota que
+  una norma fue refundida, `ver_articulo` lo dice (`refundida_por`), y si el refundido también está en el saber trae el artículo
+  del mismo número en `en_el_refundido`; al revés, en el refundido, `citas_a_la_ley_original` trae los pronunciamientos que citan
+  ese número de la ley. Caso típico: el feriado del día de elecciones es el artículo 169 de la Ley 18.700 y el 180 de su DFL 2 de
+  2017. Si el artículo que lees no trata de lo que dicen los pronunciamientos que lo citan, compara con el otro texto antes de
+  citarlo, y dilo.
 - **Las demás normas no están**: el DFL 5 de 1993, el DFL 1 de 2005 de Educación, el Decreto 101 de 1918, la Ley 18.620 (la BCN sólo
   tiene un PDF) y las que la DT cita en menos de tres pronunciamientos (`listar_cobertura` dice cuáles sí hay).
   Las leyes que modifican el Código del Trabajo (la 20.940, la 19.759, la 21.220) están con sus propios artículos, no con
