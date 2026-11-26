@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.35.0 · 2026-11-26
+
+Cada artículo dice ahora de dónde salió el texto de su norma: del XML de intercambio de la BCN, de la vista de impresión de su visor web (con la fecha en que se leyó) o, en el caso del DFL 5 de 1992, del PDF que exporta LeyChile. Antes todos los artículos mostraban la misma frase general, que hablaba del XML y del visor web aunque el DFL 5 sale del PDF. Si el artículo es una versión que rige más adelante, la fuente lo dice con su fecha; si es un artículo del XML corregido con el visor, también lo dice. Sin cambios en los textos, los pronunciamientos ni la búsqueda.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.34.0 · 2026-11-26
 
 Suma el texto del DFL 5 de 1992 (publicado el 09-03-1993), el texto refundido de la ley de subvenciones que la Dirección del Trabajo cita en 32 pronunciamientos y que el saber no traía: 52 artículos más (34.549 en 790 normas). El visor de la BCN lo entregaba con las referencias marginales (a la izquierda del texto, como «-Art. 1 D.L. N° 3.476») mezcladas línea por línea con el texto, y por eso no se servía. Esta vez se leyó del PDF que exporta LeyChile: se separó la columna de texto de la de referencias por su posición en la página y se comprobó contra el visor, palabra por palabra, que no se pierde ninguna que no sea una referencia; los artículos 10, 11, 12, 13 y 17, que son los que la DT cita, están. La numeración es la de ese texto refundido, que la BCN registra reemplazado desde el 21-07-1996 (lo refundió el DFL 2 de 1996, que el saber ya trae, y a éste el DFL 2 de 1998, vigente): cada artículo avisa que no es el texto vigente. El «DFL 5 de 1992» y el «DFL 5 de 1993» llegan al mismo texto. Con eso el texto está disponible para 21.885 de las 22.381 citas (97,8 %; antes 97,6 %). La búsqueda y los pronunciamientos no cambian: lo medido, sin agentes, sobre las preguntas de prueba, es idéntico a la 0.33.0 (acierto en los diez primeros 49,5 %, MRR 0,223). Límites: el texto sale de un PDF que no tiene una segunda lectura con la que compararlo más allá del visor; los cuadros de valores de los artículos 9 y 12 quedan como un solo párrafo con sus filas seguidas; el texto trae tal cual algunas palabras pegadas que ya traía la BCN («reajustaráen», «losrequisitos»); y la Ley 18.620 y la 18.175 siguen sin texto.
