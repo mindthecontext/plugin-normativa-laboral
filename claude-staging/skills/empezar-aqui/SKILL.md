@@ -21,7 +21,7 @@ fue justificado, una tutela, un cobro— lo resuelven los tribunales, y aquí no
 
 El corpus sale de dt.gob.cl y **la DT no publica una licencia de reutilización**. Mientras eso se
 resuelve con asesoría legal, este saber se entrega solo por invitación a quienes lo evalúan, y sus
-respuestas llevan el aviso de uso interno. Si alguien que no tiene acceso al saber pregunta, no le
+respuestas indican que la licencia con la Dirección del Trabajo está en trámite. Si alguien que no tiene acceso al saber pregunta, no le
 entregues textos completos de los pronunciamientos.
 
 ## Al activarse esta puerta

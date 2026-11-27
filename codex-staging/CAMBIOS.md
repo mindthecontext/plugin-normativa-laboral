@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.36.0 · 2026-11-26
+
+Las respuestas llevan ahora un aviso de licencia en lugar del aviso de uso interno: «Pronunciamientos publicados por la Dirección del Trabajo en www.dt.gob.cl. Licencia de reutilización con la Dirección del Trabajo en trámite.» La cobertura declara la licencia como en trámite. Sin cambios en los textos, los pronunciamientos ni la búsqueda.
+
+- Herramientas: `buscar`, `buscar_condenas`, `buscar_por_ancla`, `listar_cobertura`, `obtener_ficha`, `ver_articulo`, `ver_cambios`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.35.0 · 2026-11-26
 
 Cada artículo dice ahora de dónde salió el texto de su norma: del XML de intercambio de la BCN, de la vista de impresión de su visor web (con la fecha en que se leyó) o, en el caso del DFL 5 de 1992, del PDF que exporta LeyChile. Antes todos los artículos mostraban la misma frase general, que hablaba del XML y del visor web aunque el DFL 5 sale del PDF. Si el artículo es una versión que rige más adelante, la fuente lo dice con su fecha; si es un artículo del XML corregido con el visor, también lo dice. Sin cambios en los textos, los pronunciamientos ni la búsqueda.
